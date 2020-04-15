@@ -10,9 +10,7 @@ function bubbleSort(nums){
                 nums[j]=temp;
                 isSorted=true;
             }
-            console.log('2 for', nums);
         }
-        console.log('1 for', nums);
         sorted--;
     }
     return nums;
